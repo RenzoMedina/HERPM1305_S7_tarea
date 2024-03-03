@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Renzo_steve_medina_seccioncurso" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/primary</item>
+    </style>
+
+    <style name="Theme.Renzo_steve_medina_seccioncurso" parent="Base.Theme.Renzo_steve_medina_seccioncurso" />
+
+    <style name="Theme.API_SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/fondo_splas</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/fondo</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Renzo_steve_medina_seccioncurso</item>
+    </style>
+
+</resources>
